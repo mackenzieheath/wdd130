@@ -1,0 +1,83 @@
+
+:root {
+    --primary-color: #13315C;
+    --secondary-color: #72BDA3;
+    --text-color: #7C3626;
+    --link-color: #386150;
+    --background-color: #f0f0f0;
+    --footer-bg-color: #222;
+    --footer-text-color: #fff;
+    --heading-font: 'Roboto Condensed', sans-serif;
+    --paragraph-font: 'Roboto Condensed', sans-serif;
+}
+
+
+h1, h2, p {
+    color: var(--text-color);
+    font-family: var(--heading-font);
+}
+
+
+h1 {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px;
+    opacity: 0.8;
+}
+
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: var(--paragraph-font); 
+}
+
+main {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--secondary-color);
+    text-align: start;
+    opacity: 0.8;
+    display: block
+} 
+
+.happy {
+    margin-block: 200px;
+}
+
+.happy img{
+    width: 50%;
+    height: auto;
+    float: right;
+}
