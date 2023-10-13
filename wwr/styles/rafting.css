@@ -15,7 +15,6 @@ header {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 220px 1fr 2fr;
-    align-items: right;
     border-bottom: 1px solid #13315C;
     max-width: 1000px;
 }
