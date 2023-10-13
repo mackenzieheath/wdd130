@@ -94,17 +94,19 @@ h1 {
 }
 
 .adventure figure {
-    display: flex;
+    display:inline-block;
     flex-direction: row;
     margin: 10px;
     margin-top: 40px;
 }
 
 .adventure img {
-
+    vertical-align: center;
     margin: auto;
-    text-align: left;
-    width: 195px;
+    margin-left: 15px;
+    align-items: center;
+    width: 200px;
+    height: auto;
 }
 
 .adventure h2 {
