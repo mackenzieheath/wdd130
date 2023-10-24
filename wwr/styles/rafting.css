@@ -171,7 +171,7 @@ article {
     float: right;
 }
 
-
+/* contact page */
 .company h1 {
     position: absolute;
     top: 30%;
@@ -254,4 +254,98 @@ article {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* trips page */
+.table {
+    text-align: center;
+    margin-top: 70px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30px auto;
+}
+
+th, td {
+    border: 1px solid #13315C;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #72BDA3;
+}
+
+.trip-3 img {
+    width: 500px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+/* Trip 1 */
+.trip-1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 350px;
+}
+
+.trip-1 p {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+}
+
+.trip-1 img {
+    width: 500px;
+}
+
+.t1 h2 {
+    text-align: left;
+}
+
+/* Trip 2 */
+.trip-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 350px;
+}
+
+.trip-2 p {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+}
+
+.trip-2 img {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.t2 h2 {
+    text-align: left;
+}
+
+/* Trip 3 */
+.trip-3 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 350px;
+}
+
+.trip-3 p {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+}
+
+.trip-3 img {
+    width: 500px;
+}
+
+.t3 h2 {
+    text-align: left;
 }
