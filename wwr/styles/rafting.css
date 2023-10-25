@@ -287,6 +287,19 @@ th {
     text-align: center;
 }
 
+.contact a {
+    background-color:#72BDA3;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    background-color: yellow;
+    padding: 15px;
+    color: blue
+}
+
 /* Trip 1 */
 .trip-1 {
     display: grid;
@@ -431,6 +444,16 @@ th {
 .cta a {
     grid-column: 2;
     grid-row: 3;
+    background-color:#72BDA3;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.cta a:hover {
+    background-color: yellow;
+    padding: 15px;
+    color: blue
 }
 
 .p-items img, .o-items img {
